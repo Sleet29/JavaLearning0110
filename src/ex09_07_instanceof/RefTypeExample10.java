@@ -3,7 +3,7 @@ package ex09_07_instanceof;
 public class RefTypeExample10 {
 	public static void main(String args[]) {
 		Account obj1= new Account("111-22-333333333","홍길동",100000);
-		// Q. obj를 CheckingAccount로 캐스팅 가능한가? ((CheckingAccount) ojb)
+		// Q. obj를 CheckingAccount로 캐스팅 가능한가? ((CheckingAccount) obj)
 		if (obj1 instanceof CheckingAccount) {
 			pay((CheckingAccount) obj1);
 		}else {
